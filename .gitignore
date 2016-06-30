@@ -9,4 +9,7 @@ target
 /RUNNING_PID
 **/*.sw*
 
+
+src/main
+!src/main/nodejs
 node_modules

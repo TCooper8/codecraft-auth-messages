@@ -1,0 +1,16 @@
+{
+  "name": "codecraft-auth-messages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gen": "node node_modules/codecraft-codegen/src/main/nodejs/index.js --msgs --services --routes --scala_out src/main/scala src/main/proto/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "codecraft-codegen": "file:../codecraft-codegen",
+    "pman": "file:../pman"
+  }
+}

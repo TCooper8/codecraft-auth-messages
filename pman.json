@@ -1,0 +1,14 @@
+{
+  "name": "codecraft/auth-messages",
+  "dependencies": {
+    "codecraft/codegen": true,
+    "codecraft/pman": true
+  },
+  "scripts": {
+    "gen": true
+  },
+  "publish": [
+    "npm install ./",
+    "sbt publish-local"
+  ]
+}
