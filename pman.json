@@ -4,11 +4,10 @@
     "codecraft/codegen": true,
     "codecraft/pman": true
   },
-  "scripts": {
-    "gen": true
-  },
   "publish": [
+    "rm -r node_modules",
     "npm install ./",
+    "npm run gen",
     "sbt publish-local"
   ]
 }
